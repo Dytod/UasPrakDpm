@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema(
       {
             collection: "Users"
       }
-); 
+);  
 
 mongoose.model("Users", UserSchema);
 
